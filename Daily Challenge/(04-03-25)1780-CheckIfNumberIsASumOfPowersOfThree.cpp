@@ -1,5 +1,6 @@
 class Solution {
-  public boolean checkPowersOfThree(int n) {
+ public:
+  bool checkPowersOfThree(int n) {
     while (n > 1) {
       const int r = n % 3;
       if (r == 2)
@@ -9,4 +10,4 @@ class Solution {
 
     return true;
   }
-}
+};
