@@ -1,6 +1,7 @@
 class Solution {
-  public long getDescentPeriods(int[] prices) {
-    long ans = 1; // prices[0]
+ public:
+  long long getDescentPeriods(vector<int>& prices) {
+    long ans = 1;  // prices[0]
     int dp = 1;
 
     for (int i = 1; i < prices.size(); ++i) {
@@ -13,4 +14,4 @@ class Solution {
 
     return ans;
   }
-}
+};
